@@ -189,7 +189,7 @@ td.inactive a {
 td {
     border: none !important;
     padding-right: 5px !important;
-    height: 25px;
+    height: 15px;
     font-size: 13px !important;
 }
 
@@ -333,7 +333,7 @@ button {
 }
 
 textarea {
-    max-width: 500px !important;
+    /*max-width: 1000px !important;*/
 }
 
 #systemmessage {
@@ -379,7 +379,7 @@ li.item > .inside {
 
 /* color blocks */
 img[src*="blue.png"] {
-    background: #326ca6 !important;
+    background: #00ce00 !important;
     width: 25px;
     height: 25px;
     padding: 1px;
@@ -417,3 +417,18 @@ img[src*="red.png"] {
     border-radius: 100px;
     margin-left: 3px;
 }
+
+
+.dashboard table#viewList {
+  display:none
+}
+
+
+
+/*pre#out, #main-panel :not('.setting-main') pre { font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; background: #222222; color: white; padding: 10px; margin: 10px 0; font-size: 13px; line-height: 1.3; }
+pre#out a, #main-panel pre a { color: #80aae7; }
+pre#out a, #main-panel pre a { color: #80aae7; }
+
+h1, h2, h3, h4, h5 { font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif; }
+
+body table, body form, body input, body td, body th, body p, body textarea, body select { font-family: "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif; font-size: 12px; }*/
